@@ -9,7 +9,6 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"gorm.io/gorm"
-
 )
 
 func GetProcessController(c echo.Context) error {
@@ -59,7 +58,6 @@ func CreateProcessController(c echo.Context) error {
 		"message": "success creating process data",
 		"data":    NewProcess,
 	})
-	
 
 }
 
